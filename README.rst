@@ -17,7 +17,7 @@ in your tf file
    }
    
    module "base" {
-     source = "github.com/ygtyt/terraform-modules//bare"
+     source = "github.com/ymgyt/terraform-modules//bare"
      bastion_key_name = "your_ec2_key_pair"
      cidr_prefix = "10.0"
    }
